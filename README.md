@@ -1,16 +1,15 @@
 # Tên dự án / Bài tập
+1. Điều khiển hai LED bằng ngắt nút
+2. Truyền dữ liệu qua UART
+3. Điều khiển LED qua UART
 
-Mô tả ngắn gọn về mục tiêu của bài tập này (ví dụ: Lập trình điều khiển GPIO để đọc nút nhấn và nháy LED).
 
 ---
 
 ## Thông tin nhóm
 
 |STT| | Họ và Tên    |
-|---|
-| 1 | | Nguyễn Văn A |
-| 2 | | Trần Thị B   |
-| 3 | | Lê Văn C     |
+1. DIỆP VĂN DU
 
 ---
 
@@ -24,11 +23,12 @@ Mô tả ngắn gọn về mục tiêu của bài tập này (ví dụ: Lập tr
 
 ## Hướng dẫn Build và Nạp code
 
-1.  Mở project bằng STM32CubeIDE.
-2.  Nhấn `Build` (Ctrl + B).
-3.  Kết nối mạch nạp ST-Link và nhấn `Run` (F11) để nạp chương trình.
+1.  Mở project bằng KEIL uVersion5
+2.  Nhấn `Build` (F7).
+3.  Kết nối mạch nạp ST-Link và UARTvà nhấn `Run` (F8) để nạp chương trình.
 
 ---
 ## Video Demo
+
 
 (Dán link YouTube video demo sản phẩm tại đây)
