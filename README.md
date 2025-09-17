@@ -29,6 +29,8 @@
 
 ---
 ## Video Demo
-
-
+1. https://youtube.com/shorts/rwebQIFR42w
+2. https://youtu.be/zr5hc1TKh_k
+3. https://youtu.be/UIJF5xWdd0M
 (Dán link YouTube video demo sản phẩm tại đây)
+
