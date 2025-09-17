@@ -48,13 +48,13 @@ void Send_string(char *str){
 }
 
 void USART1_IRQHandler(void){
-    if(USART1->SR & (1<<5)){        // RXNE (bit 5) = 1, c� d? li?u nh?n
-        char c = USART1->DR;        // �?c k� t? t? thanh ghi d? li?u
+    if(USART1->SR & (1<<5)){        // RXNE (bit 5) = 1, có dữ liệu
+        char c = USART1->DR;        // Ðọc ký tự từ thanh ghi dữ liệu
 
         if(c == '1'){
-            GPIOC->BSRR = (1<<13);  // B?t LED
+            GPIOC->BSRR = ~(1<<13);  // Bật LED
         } else if(c == '0'){
-            GPIOC->BRR = (1<<13);   // T?t LED
+            GPIOC->BRR = (1<<13);   // Tắt LED
         } else if(c == '?'){
             if(GPIOC->ODR & (1<<13)){
                 Send_string("Current LED state: ON\r\n");
